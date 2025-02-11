@@ -2,9 +2,9 @@
 
 
 int main() {
-    float m;
-
-    scanf("%f",&m);
-    printf("You entered: %.2f",m);
+    float number;
+    printf("Enter a float number :");
+    scanf("%f,&number");
+    printf("you entered:%.2f/n,number",number);
     return 0;
 }
